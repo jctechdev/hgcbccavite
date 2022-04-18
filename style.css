@@ -9,9 +9,9 @@
     --white: #f4f0f4;
     --off-white:  #eeeeee;
     --brown: #9e8d8f;
-    --orange: #f27915;
+    --blue: #023A84;
     --green: #4d7701;
-    --dark-green: #1b2c00;
+    --dark-green: #03441F;
     --font-handwriting: 'Kaushan Script', cursive;
     --font-sans: 'Montserrat', sans-serif;
 
@@ -79,7 +79,7 @@ h2 {
 .nav_list {
     display: flex;
     justify-content: space-around;
-    background-color: var(--orange);
+    background-color: var(--blue);
     list-style-type: none;
     margin: 1em 0 0;
     text-align: center;
@@ -136,7 +136,7 @@ h2 {
     right: 10px;
     border: none;
     padding: .5em;
-    background-color: var(--orange);
+    background-color: var(--blue);
 }
 
 .nav-show {
@@ -199,9 +199,9 @@ h2 {
     margin: 1em 1em;
     padding: 1em 1em;
     width: 25%;
-    background-color: var(--orange);
+    background-color: var(--blue);
    /* border: 1.5px solid brown; */
-   outline: var(--orange) solid 3px;
+   outline: var(--blue) solid 3px;
    outline-offset: 3px;
    /* border-radius: 5px; */
 }
@@ -220,7 +220,7 @@ h2 {
     width: 100%;
     margin: 0 auto;
     /* border: none; */
-    border-top: var(--orange) solid .5px;
+    border-top: var(--blue) solid .5px;
 }
 
 
@@ -233,10 +233,10 @@ h2 {
 }
 
 .hero_texts {
-    background-color: var(--orange);
+    background-color: var(--blue);
     padding: 2em;
     opacity: .7;
-    outline: 1em solid var(--orange);
+    outline: 1em solid var(--blue);
     outline-offset: 10px;  
     
 }
@@ -271,7 +271,7 @@ h2 {
     border-image: 
     linear-gradient(
       to bottom, 
-      orange, 
+      blue, 
       rgba(0, 0, 0, 0)
     ) 1 100%;
     color: var(--green);
@@ -290,7 +290,7 @@ h2 {
 /******CTA*********/
 
 .btn {
-    background-color: var(--orange);
+    background-color: var(--blue);
     font-size: 1.5em;
     box-shadow: rgb(41, 39, 39) 0 5px 10px 0 ;
     border-radius: 10px;
@@ -317,7 +317,7 @@ h2 {
 /******Verse*********/
 
 .verse {
-    background-color: var(--orange);
+    background-color: var(--blue);
     margin: 2em 0;
     padding: 2em 0;
 }
@@ -364,7 +364,7 @@ blockquote h3:before {
  }
   
 .section-title {
-    color: var(--orange);
+    color: var(--blue);
     font-family: var(--font-handwriting);
     font-size: 1.5em;
     font-weight: bolder;
@@ -433,7 +433,7 @@ blockquote h3:before {
     z-index: 10;
 }
 .about-title {
-    color: var(--orange);
+    color: var(--blue);
 }
 .about-col {
     margin: 1em 0;
@@ -494,7 +494,7 @@ blockquote h3:before {
     color: var(--green)
 }
 .contact_text a:hover {
-    color: var(--orange)
+    color: var(--blue)
 }
 
   
