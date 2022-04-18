@@ -634,7 +634,7 @@ blockquote h3:before {
 
 
 footer {
-    background-color: var(--dark-green);
+    background-color: rgb(36, 34, 34);
 
     width: 100%;
     margin: 1em 0 0;
