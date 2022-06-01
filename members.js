@@ -225,13 +225,13 @@ let members = `[
     "date": "2019"
   },
 {
-    "firstname": "Christ John",
+    "firstname": "Chris John",
     "lastname": "Apinan",
     "role": "Member",
     "date": "2021"
   },
 {
-    "firstname": "Juni Gee",
+    "firstname": "Junilyn",
     "lastname": "Apinan",
     "role": "Member",
     "date": "2021"
