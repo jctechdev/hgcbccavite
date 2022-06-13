@@ -214,7 +214,7 @@ h2 {
   }
 
 .hero {
-    background: url(/img/Wide\ Cover.png) no-repeat center fixed;
+    background: url(/images/Members1.jpg) no-repeat center fixed;
     background-size: cover;
     height: 60vh;
     width: 100%;
@@ -235,7 +235,7 @@ h2 {
 .hero_texts {
     background-color: var(--blue);
     padding: 2em;
-    opacity: .7;
+    opacity: .6;
     outline: 1em solid var(--blue);
     outline-offset: 10px;  
     
@@ -405,10 +405,10 @@ blockquote h3:before {
 
 /*about*/
 .about {
-    background-image: url(/img/scbcfam.png);
+    background-image: url(/images/Members3.jpg);
     background-position: top;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     margin: 0 auto;
     padding-bottom: 2em;
     position: relative;
@@ -529,6 +529,7 @@ blockquote h3:before {
 /*filter options */
 
 .filter-options {
+    display: flex;
     margin: 1em 2em 0;
     position: relative;
 }
@@ -540,8 +541,19 @@ blockquote h3:before {
    font-size: 1.5em;
    font-weight: bold;
 }
-.visible {
-    display: none;
+.clear-button {
+    background-color: #4d7701;
+    color: white;
+    width: 100%;
+    font-size: .7em;
+    padding: .5em 2em;
+    margin-left: .5em;
+}
+
+.clear-button:hover {
+    cursor: pointer;
+    color: #4d7701;
+    background-color: #eeeeee;
 }
 .search-input {
     width: 85%;

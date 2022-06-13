@@ -10,13 +10,13 @@ let members = `[
   {
     "firstname": "Jeremiah",
     "lastname": "Jangad",
-    "role": "Pastor",
+    "role": "Pastor, Covenant Member",
     "date": "2013"
   },
   {
     "firstname": "Mary Joy",
     "lastname": "Jangad",
-    "role": "Pastor\'s Wife",
+    "role": "Covenant Member",
     "date": "2013"
   },
   {
@@ -34,146 +34,146 @@ let members = `[
 {
     "firstname": "Joenel",
     "lastname": "Afable",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2013"
   },
 {
     "firstname": "Harry",
     "lastname": "Gonzales",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2014"
   },
 
 {
     "firstname": "Jonathan",
     "lastname": "Ledesma",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2015"
   },
 {
     "firstname": "Lorenzo",
     "lastname": "Tating Jr.",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2015"
   },
 {
     "firstname": "Riza",
     "lastname": "Tating",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2015"
   },
 {
     "firstname": "Jeff",
     "lastname": "Chavez",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2016"
   },
 {
     "firstname": "Gloryben",
     "lastname": "Chavez",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2016"
   },
 {
     "firstname": "Eliseo",
     "lastname": "Openio",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2016"
   },
 {
     "firstname": "Elena",
     "lastname": "Openio",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2016"
   },
 {
     "firstname": "Remy",
     "lastname": "Lagucay",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2016"
   },
 {
     "firstname": "Henry",
     "lastname": "Sealongo",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2016"
   },
 {
     "firstname": "Lorna",
     "lastname": "Sealongo",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2016"
   },
 {
     "firstname": "Creziel",
     "lastname": "Mercado",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2016"
   },
 {
     "firstname": "Ruby",
     "lastname": "Sarco",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2017"
   },
 {
     "firstname": "Sam",
     "lastname": "Tacdoro",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2017"
   },
 {
     "firstname": "Divine",
     "lastname": "Tacdoro",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2017"
   },
 {
     "firstname": "Cristina",
     "lastname": "Olo",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2017"
   },
 {
     "firstname": "Jordan",
     "lastname": "Ravanes",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
     "firstname": "Jerry",
     "lastname": "del Mundo",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
     "firstname": "Adora",
     "lastname": "del Mundo",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
     "firstname": "Esther Joi",
     "lastname": "del Mundo",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
     "firstname": "Joshua",
     "lastname": "Figueroa",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
     "firstname": "Jihan",
     "lastname": "Figueroa",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
     "firstname": "Mercy",
     "lastname": "Figueroa",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
@@ -185,115 +185,115 @@ let members = `[
 {
     "firstname": "Christian David",
     "lastname": "Bare",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
     "firstname": "Kate",
     "lastname": "Bare",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
     "firstname": "Psalm",
     "lastname": "Torres",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
     "firstname": "Christian Joriz",
     "lastname": "Fairbanks",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
     "firstname": "Genevieve",
     "lastname": "Carrillo",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
     "firstname": "Bar",
     "lastname": "Carrillo",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2018"
   },
 {
     "firstname": "Isagani",
     "lastname": "Azur",
-    "role": "Preacher Member",
+    "role": "Covenant Member",
     "date": "2019"
   },
 {
     "firstname": "Chris John",
     "lastname": "Apinan",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
     "firstname": "Junilyn",
     "lastname": "Apinan",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
     "firstname": "Ma. Jesus",
     "lastname": "Solidum",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
     "firstname": "Stephanie Anne",
     "lastname": "Solidum",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
     "firstname": "Sarah Allyssa",
     "lastname": "Solidum",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
     "firstname": "Christian",
     "lastname": "Francisco",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
     "firstname": "Shana",
     "lastname": "Francisco",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
     "firstname": "Geno Carlo A.",
     "lastname": "Miravalles",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
     "firstname": "Rochelle Veronica P.",
     "lastname": "Miravalles",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
     "firstname": "Ernest Jay",
     "lastname": "Brun",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
     "firstname": "Erniela Jam",
     "lastname": "Brun",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
     "firstname": "Maria Cecilla G.",
     "lastname": "Azur",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
@@ -323,13 +323,13 @@ let members = `[
 {
     "firstname": "Armel Jay",
     "lastname": "Mercado",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
     "firstname": "Peter",
     "lastname": "Zambrano",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "2021"
   },
 {
@@ -347,55 +347,55 @@ let members = `[
 {
     "firstname": "Flordeliz",
     "lastname": "Manila",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "December 2021"
   },
 {
     "firstname": "Angelica",
     "lastname": "Fernandez",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "December 2021"
   },
 {
     "firstname": "Cristine",
     "lastname": "Cance",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "December 2021"
   },
 {
     "firstname": "Ramon",
     "lastname": "Musngi",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "December 2021"
   },
 {
     "firstname": "Marissa",
     "lastname": "Musngi",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "December 2021"
   },
 {
     "firstname": "Aries Jake",
     "lastname": "Montilla",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "December 2021"
   },
 {
     "firstname": "Regina",
     "lastname": "Montilla",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "December 2021"
   },
 {
     "firstname": "Junariez",
     "lastname": "Musngi",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": "December 2021"
   },
   {
     "firstname": "Vince",
     "lastname": "Tombaga",
-    "role": "Member",
+    "role": "Covenant Member",
     "date": " January 2022"
   }
 ]`
@@ -434,7 +434,7 @@ const findMatches = (wordToMatch, names) => {
   return names.filter(name => {
     const regex = new RegExp(wordToMatch, 'gi');
     return name.firstname.match(regex) || name.lastname.match(regex) 
-          || name.date.match(regex);
+          || name.date.match(regex) || name.role.match(regex);
   })
 }
 
