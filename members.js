@@ -479,7 +479,8 @@ searchMembers.addEventListener('keyup', displayMatches);
 
 const clearResult = () => {
   const clear = searchMembers.value = "";
-  allMembersShow()
+  allMembersShow();
+  showTotal();
   return clear;
 }
 
