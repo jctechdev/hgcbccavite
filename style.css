@@ -238,7 +238,7 @@ h2 {
 
 
 .hero_main {
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     flex-direction: row;
     height: 60vh;
@@ -255,6 +255,8 @@ h2 {
     outline: .5em solid var(--blue);
     outline-offset: 5px;  
     margin-bottom: 1.5em;
+    position: absolute;
+    bottom: 1em;
     
 }
 .hero_texts p {
@@ -638,9 +640,16 @@ blockquote h3:before {
         border-radius: 10px; */
     }
     .hero_main {
-        /* margin-bottom: 7em; */
+        height: 40vh;
     }
 
+    .hero_texts {
+        position: absolute;
+        bottom: 1em;
+    }
+    .hero_texts p {
+        font-size: .8em;
+    }
   }
 
 
