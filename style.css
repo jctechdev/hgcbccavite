@@ -129,6 +129,8 @@ h2 {
         font-size: 1rem;
         padding-left: 1.5rem;
     }
+
+   
 }
 .nav-toggle {
     display: none;
@@ -647,9 +649,10 @@ blockquote h3:before {
         position: absolute;
         bottom: 1em;
     }
-    .hero_texts p {
+    .hero_texts p, .btn {
         font-size: .8em;
     }
+  
   }
 
 
