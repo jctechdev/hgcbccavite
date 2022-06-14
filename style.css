@@ -215,22 +215,30 @@ h2 {
     box-shadow: var(--green) 0 5px 10px 0 ;
     transition: .5s ease-in-out;
   }
-
 .hero {
+    height: 60vh;
+    position: relative;
+}
+.hero::before {
+    content: "";
+    position: absolute;
     background: url(/images/Members1.jpg) no-repeat center fixed;
+    top: 0;
+    left: 0;
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: 100%;
     width: 100%;
     margin: 0 auto;
+    filter: blur(2px);
     /* border: none; */
-    border-top: var(--blue) solid .5px;
+    /* border-top: var(--blue) solid .5px; */
 }
 
 
 
 .hero_main {
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     flex-direction: row;
     height: 60vh;
@@ -238,10 +246,11 @@ h2 {
 
 .hero_texts {
     background-color: var(--blue);
-    padding: 2em;
-    opacity: .6;
-    outline: 1em solid var(--blue);
-    outline-offset: 10px;  
+    padding: .5em;
+    opacity: .7;
+    outline: .5em solid var(--blue);
+    outline-offset: 5px;  
+    margin-bottom: 1em;
     
 }
 .hero_texts p {
@@ -251,16 +260,95 @@ h2 {
     font-weight: bold;
 }
 
-@media(max-width:600px) {
-    .hero_texts {
-        padding: 1em;
-    }
-    .hero_texts p{
-        font-size: 1.5rem;
-    }
+.slider {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: rgb(41, 39, 39) 0 5px 10px 0 ;
+  }
 
+  .slider__list {
+    position: relative;
+    left: 0;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    width: 700%;
+    border-radius: 2em;
+    box-shadow: rgb(41, 39, 39) 0 5px 10px 0 ;
+
+  }
+  .slider__slide > img {
+    width: 100%;
+    /* object-fit: fill;
+    object-position: 80% 100%; */
+   
+  }
+
+  .slider > .slider__list {
+    -webkit-animation-name: slide;
+    animation-name: slide;
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+
+
+@keyframes slide{ 
+    0%{
+        left:0;
+    }
+    10%{
+        left:0;
+    }
+    20%{
+        left:-100%;
+    }
+    30%{
+        left:-100%;
+    }
+    40%{
+        left:-200%;
+    }
+    50%{
+        left:-200%;
+    }
+    60%{
+        left:-300%;
+    }
+    65%{
+        left:-300%;
+    }
+    70%{
+        left:-400%;
+    }
+    75%{
+        left:-400%;
+    }
+    80%{
+        left:-500%;
+    }
+    85%{
+        left:-500%;
+    }
+    90%{
+        left:-600%;
+    }
+    95%{
+        left:-600%;
+    }
+    100%{
+        left:-600%;
+    }
+  
 }
-
 
 
 /*ministires*/
@@ -447,7 +535,7 @@ blockquote h3:before {
 
 }
 .about-subtitle {
-    font-size: 1.2em;
+    font-size: .8em;
     color: var(--white);
     text-transform: uppercase;
     font-weight: bolder;
@@ -531,10 +619,12 @@ blockquote h3:before {
 
 
 /*filter options */
-
+.filter-section > .container {
+    margin: 1em auto;
+}
 .filter-options {
     display: flex;
-    margin: 1em 2em 0;
+    margin: 0 2em 0;
     position: relative;
     align-items: center;
 }
@@ -618,6 +708,13 @@ blockquote h3:before {
     border-radius: 50%;
     background-size: cover;
     background-position: center;
+    opacity: .7;
+    filter: blur(5px);
+}
+
+.member__image:hover {
+    opacity: 1;
+    filter: blur(0px);
 }
 
 @media (max-width:800px) {
