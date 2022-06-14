@@ -221,22 +221,6 @@ h2 {
     /* height: 60vh; */
     position: relative;
 }
-/* .hero::before {
-    content: "";
-    position: absolute;
-    background: url(/images/members1.jpg) no-repeat center fixed;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    filter: blur(2px);
-    border: none;
-    border-top: var(--blue) solid .5px;
-} */
-
 
 
 .hero_main {
@@ -258,7 +242,7 @@ h2 {
     outline-offset: 5px;  
     margin-bottom: 1.5em;
     position: absolute;
-    bottom: 1em;
+    bottom: 0;
     
 }
 .hero_texts p {
